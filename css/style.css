@@ -1,0 +1,178 @@
+main section{
+    background-color: #1b1b1b;
+    
+
+}
+
+.first_div{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 60px;
+    padding: 0 200px;
+
+}
+
+.first_div h2{
+    color: #fff;
+    font-size: 50px;
+    font-family: sans-serif;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.first_div h4{
+    color: #e9204f;
+    font-size: 20px;
+    font-family: sans-serif;
+}
+
+.first_div a{
+    color: #fff;
+    font-size: 15px;
+    font-family: sans-serif;
+    padding: 15px 32px;
+    border: 1px solid #e9204f;
+    font-weight: bold;
+
+}
+
+.button:hover{
+    background-color: #e9204f;
+    color: #fff;
+    font-weight: bolder;
+}
+
+.second_div{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 50px;
+
+}
+
+.box{
+    width: 32.5%;
+    align-items: center;
+    overflow: hidden;
+
+}
+.box img{
+    width: 100%;
+    height: 400px;
+    background-position: center;
+    background-size: cover;
+    vertical-align: bottom;
+    transition: 0.3s;
+    filter: grayscale(100);    
+
+
+}
+
+.box img:hover{
+    transform: scale(1.1);
+    filter: grayscale(0);    
+
+}
+
+.third-section{
+    padding: 50px 200px;
+
+}
+.third_div{
+    display: flex;
+    justify-content: space-between;
+    
+
+}
+
+.third_div h2{
+    color: #fff;
+    font-size: 50px;
+    font-family: sans-serif;
+    margin-bottom: 20px;
+
+}
+
+.third_div h4{
+    color: #e9204f;
+    font-size: 15px;
+    font-family: sans-serif;
+    width: 290px;
+    margin-bottom: 60px;
+
+}
+
+.third_div p{
+    color: #ACACAC;
+    font-size: 18px;
+    font-family: sans-serif;
+
+}
+
+.third_p{
+    padding-left: 100px;
+}
+
+.third_photo{
+    display: flex;
+    justify-content: space-between;
+
+}
+.box3{
+    width: 68%;
+}
+
+.box4{
+    width: 30%;
+}
+.box4 img{
+    height: 240px;
+    margin-bottom: 25px;
+}
+.third_photo img{
+    width: 100%;
+    filter: grayscale(100);    
+}
+
+.third_photo img:hover{
+    filter: grayscale(0);    
+}
+.footer-sec{
+    display: flex;
+    justify-content: space-between;
+    background-color: #1b1b1b;
+    padding: 50px 200px;
+
+
+}
+.box5{
+    width: 30%;
+}
+.box5 h2{
+    color: #fff;
+    font-size: 22px;
+    font-family: sans-serif;
+    margin-bottom: 20px;
+
+
+
+}
+
+.box5 p{
+    color: #ACACAC;
+    font-size: 17px;
+    font-family: sans-serif;
+
+}
+
+.line{
+    background-color: #e9204f;
+    width: 2px;
+    height: 60px;
+    margin:  0 auto;
+}
+
+footer{
+    background-color: #1b1b1b;
+    padding-bottom: 50px;
+}
